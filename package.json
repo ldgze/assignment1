@@ -1,0 +1,15 @@
+{
+  "name": "assignment1",
+  "version": "1.0.0",
+  "description": "HTML + CSS + JavaScript self assessment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dongze Li",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "reload": "^3.2.1"
+  }
+}
