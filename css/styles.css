@@ -1,0 +1,81 @@
+/* CSS styles for the gallery */
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box {
+  width: 140px;
+  height: 140px;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid;
+  box-sizing: border-box;
+  background: aquamarine;
+}
+
+/* Different values for border, margin, and padding */
+.group1 {
+  border: solid red;
+}
+
+.group2 {
+  border: solid blue;
+}
+
+.group3 {
+  border: solid green;
+}
+
+/* CSS styles for the creative section */
+.creative-section {
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid blueviolet;
+  background: #f0f0f0;
+  width: 150px;
+  height: 200px;
+  text-align: center;
+}
+
+/* Positioning option 1: Absolute */
+.position-absolute {
+  position: absolute;
+
+  left: 10px;
+}
+
+/* Positioning option 2: Relative */
+.position-relative {
+  position: relative;
+  bottom: 20px;
+  left: 20px;
+}
+
+/* Positioning option 3: Fixed */
+.position-fixed {
+  position: fixed;
+  bottom: 60px; /* Adjusted to accommodate the footer's height */
+  right: 20px;
+}
+
+/* Positioning option 4: Sticky */
+.position-sticky {
+  position: sticky;
+  top: 20px;
+}
+
+/* CSS styles for the footer */
+footer {
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

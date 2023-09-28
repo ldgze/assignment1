@@ -3,12 +3,405 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>HTML + CSS + JavaScript self assessment</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <!-- You can link to your CSS file here -->
   </head>
   <body>
-    <div>Hello World!</div>
-    <br />
-    <br />
-    <p>hello~</p>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#tags">HTML: Most useful HTML Tags</a></li>
+          <li><a href="#SEO">HTML: Important Header Tags for SEO</a></li>
+          <li><a href="#grid">HTML: Grid of 3x3 Layout</a></li>
+          <li><a href="#CSS">CSS</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home">
+        <h1>HTML + CSS + JavaScript self assessment</h1>
+        <div>
+          <p>
+            This is assignment should help you practice and self assess the
+            concepts for vanilla HTML + CSS + JS
+          </p>
+          <ol>
+            <li>
+              HTML. Create a webpage with a navbar, some main content with one
+              main header and 4 subheaders and sections, and a footer. Also
+              provide a list of the 10 most useful tags (e.g. div) for you in
+              HTML
+            </li>
+            <li>
+              HTML. Research about SEO and provide a list of some of the most
+              important header tags that you should add to your pages for SEO
+            </li>
+            <li>
+              HTML. In the page create a grid of 3x3 like layout without using
+              table, or any css. Just use divs and spans
+            </li>
+            <li>
+              CSS. Create a gallery that showcases the options for
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model#parts_of_a_box"
+                ><span>box model</span></a
+              >
+              using css. For each row change the values of border, margin and
+              padding. For the columns try three different values (e.g. 0px 5px
+              10px)
+            </li>
+            <li>
+              CSS. Create an itemized list with the same text and 6 different
+              font sizes, use inline styling. Choose a combination of
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units#numbers_lengths_and_percentages"
+                ><span>absolute and relative sizes</span></a
+              >. Explain on each item when would you use that unit by means of
+              an example
+            </li>
+            <li>
+              CSS. Add a creative part of the page that uses 4 different
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning"
+                ><span>positioning</span></a
+              >
+              options. Try to think and explain when would you use these
+              options. Use that positioning to make sure that your footer stays
+              on the bottom of the screen
+            </li>
+            <li>I'll be adding more tasks coming soon</li>
+          </ol>
+          <p>
+            This is a non graded assignment. However, it can be used as a part
+            of the participation grade. I'll probably will randomly call some of
+            you to show your submission during class. You will have to
+            peer-review a class mate submission. If you don't submit this grade
+            or the peer review, you could get negative points in the
+            participation grade
+          </p>
+        </div>
+      </section>
+
+      <section id="tags">
+        <h2>10 Most useful HTML Tags</h2>
+        <ol>
+          <li>
+            <strong>&lt;p&gt; - Paragraph</strong>
+          </li>
+          <p>
+            The &lt;p&gt; tag is used to define paragraphs of text. It is one of
+            the most fundamental tags for structuring content.
+          </p>
+
+          <li><strong>&lt;a&gt; - Anchor (Hyperlink)</strong></li>
+          <p>
+            The &lt;a&gt; tag creates hyperlinks. It's used to link to other web
+            pages, resources, or locations within the same page.
+          </p>
+
+          <li>
+            <strong>&lt;img&gt; - Image</strong>
+          </li>
+          <p>
+            The &lt;img&gt; tag is used to embed images on web pages. It allows
+            you to display graphics, icons, and photos.
+          </p>
+
+          <li>
+            <strong
+              >&lt;ul&gt; and &lt;li&gt; - Unordered List and List Item</strong
+            >
+          </li>
+          <p>
+            The &lt;ul&gt; and &lt;li&gt; tags are used to create unordered
+            lists. &lt;ul&gt; defines the list, and &lt;li&gt; defines list
+            items within it.
+          </p>
+
+          <li>
+            <strong
+              >&lt;ol&gt; and &lt;li&gt; - Ordered List and List Item</strong
+            >
+          </li>
+          <p>
+            Similar to unordered lists, the &lt;ol&gt; and &lt;li&gt; tags
+            create ordered lists. &lt;ol&gt; defines the list, and &lt;li&gt;
+            defines list items with numbers or other markers.
+          </p>
+
+          <li><strong>&lt;h1&gt; to &lt;h6&gt; - Headings</strong></li>
+          <p>
+            Headings are used to define the structure of a document. &lt;h1&gt;
+            is the highest level (main heading), and &lt;h6&gt; is the lowest.
+          </p>
+
+          <li><strong>&lt;div&gt; - Division</strong></li>
+          <p>
+            The &lt;div&gt; tag is a generic container for grouping and styling
+            content. It's commonly used with CSS for layout purposes.
+          </p>
+
+          <li><strong>&lt;span&gt; - Inline Container</strong></li>
+          <p>
+            The &lt;span&gt; tag is an inline container used to apply styles or
+            script to a specific portion of text or content.
+          </p>
+
+          <li><strong>&lt;input&gt; - Input</strong></li>
+          <p>
+            The &lt;input&gt; tag is used to create input fields like text
+            boxes, checkboxes, radio buttons, and more in forms.
+          </p>
+
+          <li><strong>&lt;form&gt; - Form</strong></li>
+          <p>
+            The &lt;form&gt; tag is used to create web forms for user input. It
+            contains various input elements and can be submitted to a server.
+          </p>
+        </ol>
+      </section>
+
+      <section id="SEO">
+        <h2>HTML: Important Header Tags for SEO</h2>
+        <h3>What is SEO?</h3>
+        <p>
+          SEO, or Search Engine Optimization, is the practice of optimizing your
+          website to improve its visibility in search engine results pages
+          (SERPs). The primary goal of SEO is to increase organic (non-paid)
+          traffic to your website by making it more relevant and authoritative
+          to search engines like Google, Bing, and Yahoo.
+        </p>
+        <h3>Why is SEO Important?</h3>
+        <p>SEO is important for several reasons:</p>
+        <ul>
+          <li>
+            Increased Visibility: Higher rankings in search results lead to more
+            clicks and visitors.
+          </li>
+          <li>
+            Improved Credibility: Websites that rank well are often perceived as
+            more trustworthy and authoritative.
+          </li>
+          <li>
+            Enhanced User Experience: SEO practices result in a better website
+            user experience.
+          </li>
+          <li>
+            Competitive Advantage: SEO helps you stay competitive in your
+            industry.
+          </li>
+        </ul>
+        <h3>Important HTML Tags for SEO</h3>
+        <p>
+          HTML tags play a crucial role in SEO. Here are some important HTML
+          tags:
+        </p>
+        <ul>
+          <li>
+            <strong>&lt;title&gt;</strong> - Title Tag: Use to specify the title
+            of the web page, which appears in search results.
+          </li>
+          <li>
+            <strong>&lt;meta name="description" content="..."&gt;</strong> -
+            Meta Description Tag: Provides a brief description of the page
+            content in search results.
+          </li>
+          <li>
+            <strong>&lt;meta name="keywords" content="..."&gt;</strong> - Meta
+            Keywords Tag (less important today): Lists keywords related to the
+            page content.
+          </li>
+          <li>
+            <strong>&lt;h1&gt;</strong> - Main Heading: Use for the primary
+            topic of the page.
+          </li>
+          <li>
+            <strong>&lt;h2&gt;</strong> - Subheadings: Use for subsections
+            directly related to the main topic.
+          </li>
+          <li>
+            <strong>&lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt;</strong> -
+            Subsections: Use for further dividing content hierarchy.
+          </li>
+        </ul>
+      </section>
+
+      <section id="grid">
+        <h2>HTML: Grid of 3x3 Layout</h2>
+        <div class="grid">
+          <div>
+            <span class="cell">1</span>
+            <span class="cell">2</span>
+            <span class="cell">3</span>
+          </div>
+          <div>
+            <span class="cell">4</span>
+            <span class="cell">5</span>
+            <span class="cell">6</span>
+          </div>
+          <div>
+            <span class="cell">7</span>
+            <span class="cell">8</span>
+            <span class="cell">9</span>
+          </div>
+        </div>
+        <p>
+          This code uses a nested div structure to create the grid. The outer
+          div, grid, has a class of grid to style it. The inner divs, row, have
+          a class of row to style them. The span elements, cell, are used to
+          create the individual cells in the grid. The HTML code above will
+          create a 3x3 grid of cells, with each cell containing the number 1
+          through 9. You can style the grid using CSS to change its appearance.
+        </p>
+      </section>
+
+      <section id="CSS">
+        <h2>CSS</h2>
+        <section>
+          <h3>
+            Gallery that showcases the options for the box model using css
+          </h3>
+          <div class="container">
+            <div class="column">
+              <div
+                class="box group1"
+                style="border: solid red 0px; margin: 10px; padding: 10px"
+              >
+                border: 0px; margin: 10px; padding: 10px
+              </div>
+              <div
+                class="box group1"
+                style="border: solid red 5px; margin: 10px; padding: 10px"
+              >
+                border: 5px; margin: 10px; padding: 10px
+              </div>
+              <div
+                class="box group1"
+                style="border: solid red 10px; margin: 10px; padding: 10px"
+              >
+                border: 10px; margin: 10px; padding: 10px
+              </div>
+            </div>
+
+            <!-- Column 2: Group 2 -->
+            <div class="column">
+              <div
+                class="box group2"
+                style="border: solid blue 2px; margin: 0px; padding: 10px"
+              >
+                border: 2px; margin: 0px; padding: 10px
+              </div>
+              <div
+                class="box group2"
+                style="border: solid blue 2px; margin: 5px; padding: 10px"
+              >
+                border: 2px; margin: 5px; padding: 10px
+              </div>
+              <div
+                class="box group2"
+                style="border: solid blue 2px; margin: 10px; padding: 10px"
+              >
+                border: 2px; margin: 10px; padding: 10px
+              </div>
+            </div>
+
+            <!-- Column 3: Group 3 -->
+            <div class="column">
+              <div
+                class="box group3"
+                style="border: solid green 2px; margin: 10px; padding: 0px"
+              >
+                border: 2px; margin: 10px; padding: 0px
+              </div>
+              <div
+                class="box group3"
+                style="border: solid green 2px; margin: 10px; padding: 5px"
+              >
+                border: 2px; margin: 10px; padding: 5px
+              </div>
+              <div
+                class="box group3"
+                style="border: solid green 2px; margin: 10px; padding: 10px"
+              >
+                border: 2px; margin: 10px; padding: 10px
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h3>Itemized list with the same text and 6 different font sizes</h3>
+          <ul>
+            <!-- Using inline styling to set font size -->
+            <li style="font-size: 12px">
+              12px (Absolute) - Ideal for fine print or legal disclaimers.
+            </li>
+            <li style="font-size: 16px">
+              16px (Absolute) - Suitable for regular text for consistency.
+            </li>
+            <li style="font-size: 1em">
+              1em (Relative) - Scales with the parent element's font size.
+            </li>
+            <li style="font-size: 1.2em">
+              1.2em (Relative) - Slightly larger than parent element's font
+              size.
+            </li>
+            <li style="font-size: 18px">
+              18px (Absolute) - Great for larger text like headings.
+            </li>
+            <li style="font-size: 2rem">
+              2rem (Relative) - Ensures consistent scaling across the entire
+              page.
+            </li>
+          </ul>
+        </section>
+      </section>
+
+      <section>
+        <h3>Creative Section with Positioning Options</h3>
+        <!-- Creative section with different positioning options -->
+        <div class="container">
+          <div class="creative-section position-sticky">
+            <p>Sticky Positioning</p>
+            <p>
+              Use when you want an element to be initially positioned according
+              to the normal flow, but then "stick" to the viewport when
+              scrolling past a certain point.
+            </p>
+          </div>
+
+          <div class="creative-section position-relative">
+            <p>Relative Positioning</p>
+            <p>
+              Use when you want an element to be positioned relative to its
+              normal position in the document flow.
+            </p>
+          </div>
+
+          <div class="creative-section position-fixed">
+            <p>Fixed Positioning</p>
+            <p>
+              Use when you want an element to be positioned relative to the
+              viewport, and it stays fixed even when scrolling.
+            </p>
+          </div>
+        </div>
+
+        <div class="creative-section position-absolute">
+          <p>Absolute Positioning</p>
+          <p>
+            Use when you want an element to be positioned relative to its
+            nearest positioned ancestor.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 Dongze Li</p>
+    </footer>
   </body>
 </html>
