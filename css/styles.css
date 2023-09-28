@@ -47,7 +47,6 @@
 /* Positioning option 1: Absolute */
 .position-absolute {
   position: absolute;
-
   left: 10px;
 }
 
@@ -68,7 +67,8 @@
 /* Positioning option 4: Sticky */
 .position-sticky {
   position: sticky;
-  top: 20px;
+  top: 0px;
+  background-color: aliceblue;
 }
 
 /* CSS styles for the footer */
